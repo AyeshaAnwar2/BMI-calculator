@@ -1,38 +1,44 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.my-form {
+  background: rgb(200, 169, 231);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(210, 10, 147, 0.893);
+  width: 350px;
 }
 
-#myform{
-    background-color: rgb(231, 89, 89);
-     width: 400px;
-    height: 500px;
-    padding-top: 30px;
-    place-self: center;
+.my-form h1 {
+  margin-bottom: 5px;
+  text-align: center;
 }
 
-#container{
-     place-self: center;
+.my-form h4 {
+  margin-bottom: 5px;
 }
 
-#input{
-    margin-top: 20px;
+.my-form input,
+.my-form textarea {
+    width: 200px;
+  margin-bottom: 2px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-h4{
-    margin-top: 15px;
-}
- 
-h2{
-    margin-top: 15px;
-}
- 
-p{
-    margin-top: 15px;
-}
-
-button{
-    margin-top: 30px;
-    margin-left: 80px;
-    width: 100px;
+.my-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
